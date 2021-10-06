@@ -1,0 +1,6 @@
+sourceCompatibility = 1.7
+[compileJava, compileTestJava]*.options*.encoding = 'windows-1254'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+
+eclipse.project.name = appName + "-core"
